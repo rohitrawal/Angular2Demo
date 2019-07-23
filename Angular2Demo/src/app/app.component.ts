@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 })
 //export class AppComponent  { name = 'Angular 2!'; }
 export class AppComponent {
-    pageHeader: string = 'Employee Details';
+    pageHeader: string = 'Employee Details:';
 }
