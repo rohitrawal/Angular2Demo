@@ -5,8 +5,8 @@
     templateUrl: 'app/employee/employee.component.html'
 })
 export class EmployeeComponent {
-    firstName: string = 'Tom';
-    lastName: string = 'Hopkins';
+    firstName: string = 'EmployeeFirstName';
+    lastName: string = 'EmployeeLastName';
     gender: string = 'Male';
     age: number = 20;
 }

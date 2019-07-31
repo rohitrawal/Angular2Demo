@@ -1,6 +1,19 @@
-﻿<table>
+﻿<span class="radioClass">Show : </span>
+<input type="radio" name="options" value="all" [(ngModel)] ="selectedRadioButtonValue" 
+       (change) ="onRadioButtonSelectionChange()"/>
+<span class="radioClass">{{"all(" + all +")"}}</span>
+
+<input type="radio" name="options" value="Male" [(ngModel)] ="selectedRadioButtonValue" 
+       (change) ="onRadioButtonSelectionChange()" />
+<span class="radioClass">{{"Male(" + Male +")"}}</span>
+
+<input type="radio" name="options" value="FeMale" [(ngModel)] ="selectedRadioButtonValue" 
+       (change) ="onRadioButtonSelectionChange()" />
+<span class="radioClass">{{"FeMale(" + FeMale +")"}}</span>
+<br />
+<!--<table>
     <tr>
-        <td>First Name</td>
+        <td>First Name1</td>
         <td>{{firstName}}</td>
     </tr>
     <tr>
@@ -15,4 +28,4 @@
         <td>Age</td>
         <td>{{age}}</td>
     </tr>
-</table>
+</table>-->
