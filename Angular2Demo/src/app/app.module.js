@@ -13,13 +13,14 @@ var app_component_1 = require("./app.component");
 var employee_component_1 = require("./employee/employee.component");
 var customer_component_1 = require("./customer/customer.component");
 var customerlist_component_1 = require("./customer/customerlist.component");
+var supplier_component_1 = require("./Supplier/supplier.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
-            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent, customer_component_1.CustomerComponent, customerlist_component_1.customerlistcomponent],
+            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent, customer_component_1.CustomerComponent, customerlist_component_1.customerlistcomponent, supplier_component_1.supplierComponent],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);

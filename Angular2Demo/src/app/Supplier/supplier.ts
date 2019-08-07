@@ -1,5 +1,5 @@
-﻿import { ICustomer } from "./Icustomer";
+﻿import { ISupplier } from "./ISupplier";
 
-export class customer implements ICustomer {
+export class supplier implements ISupplier {
     constructor(public firstName: string, public lastName: string, public gender: string, public age: number) { }
 }

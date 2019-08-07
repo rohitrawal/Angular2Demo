@@ -75,12 +75,14 @@
     <Content Include="src\app\customer\customerlist.component.html" />
     <Content Include="src\app\employee\employee.component.html" />
     <Content Include="src\app\Main.html" />
+    <Content Include="src\app\Supplier\supplier.html" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
     <Content Include="src\styles.css" />
     <Content Include="src\systemjs-angular-loader.js" />
     <Content Include="src\systemjs.config.extras.js" />
     <Content Include="src\systemjs.config.js" />
+    <Content Include="src\Test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,7 +108,11 @@
     <TypeScriptCompile Include="src\app\customer\customer.component.ts" />
     <TypeScriptCompile Include="src\app\customer\customer.ts" />
     <TypeScriptCompile Include="src\app\customer\customerlist.component.ts" />
+    <TypeScriptCompile Include="src\app\customer\Icustomer.ts" />
     <TypeScriptCompile Include="src\app\employee\employee.component.ts" />
+    <TypeScriptCompile Include="src\app\Supplier\ISupplier.ts" />
+    <TypeScriptCompile Include="src\app\Supplier\supplier.component.ts" />
+    <TypeScriptCompile Include="src\app\Supplier\supplier.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>

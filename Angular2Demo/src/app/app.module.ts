@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms'
 import { AppComponent }  from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { CustomerComponent } from './customer/customer.component';
-import { customerlistcomponent } from './customer/customerlist.component'
+import { customerlistcomponent } from './customer/customerlist.component';
+import { supplierComponent } from './Supplier/supplier.component'
 @NgModule({
     imports: [BrowserModule, FormsModule],
-    declarations: [AppComponent, EmployeeComponent, CustomerComponent, customerlistcomponent],
+    declarations: [AppComponent, EmployeeComponent, CustomerComponent, customerlistcomponent, supplierComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

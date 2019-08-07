@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var customer = /** @class */ (function () {
-    function customer(firstName, lastName, gender, age) {
+var supplier = /** @class */ (function () {
+    function supplier(firstName, lastName, gender, age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
         this.age = age;
     }
-    return customer;
+    return supplier;
 }());
-exports.customer = customer;
-//# sourceMappingURL=customer.js.map
+exports.supplier = supplier;
+//# sourceMappingURL=supplier.js.map

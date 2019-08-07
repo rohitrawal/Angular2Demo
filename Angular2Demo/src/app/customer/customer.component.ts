@@ -1,5 +1,6 @@
 ﻿import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { customer } from './customer'
+
 @Component({
     selector: 'my-customer',
     templateUrl: 'app/customer/customer.component.html'
