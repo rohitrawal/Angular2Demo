@@ -74,8 +74,10 @@
     <Content Include="src\app\customer\customerlist.component.css" />
     <Content Include="src\app\customer\customerlist.component.html" />
     <Content Include="src\app\employee\employee.component.html" />
+    <Content Include="src\app\Grid\grid.html" />
     <Content Include="src\app\Main.html" />
     <Content Include="src\app\Supplier\supplier.html" />
+    <Content Include="src\app\Supplier\supplierInput.html" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
     <Content Include="src\styles.css" />
@@ -110,6 +112,7 @@
     <TypeScriptCompile Include="src\app\customer\customerlist.component.ts" />
     <TypeScriptCompile Include="src\app\customer\Icustomer.ts" />
     <TypeScriptCompile Include="src\app\employee\employee.component.ts" />
+    <TypeScriptCompile Include="src\app\Grid\grid.component.ts" />
     <TypeScriptCompile Include="src\app\Supplier\ISupplier.ts" />
     <TypeScriptCompile Include="src\app\Supplier\supplier.component.ts" />
     <TypeScriptCompile Include="src\app\Supplier\supplier.ts" />

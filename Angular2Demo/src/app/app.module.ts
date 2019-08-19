@@ -6,9 +6,10 @@ import { EmployeeComponent } from './employee/employee.component';
 import { CustomerComponent } from './customer/customer.component';
 import { customerlistcomponent } from './customer/customerlist.component';
 import { supplierComponent } from './Supplier/supplier.component'
+import { gridcomponent } from './Grid/grid.component'
 @NgModule({
     imports: [BrowserModule, FormsModule],
-    declarations: [AppComponent, EmployeeComponent, CustomerComponent, customerlistcomponent, supplierComponent],
+    declarations: [AppComponent, EmployeeComponent, CustomerComponent, customerlistcomponent, supplierComponent, gridcomponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

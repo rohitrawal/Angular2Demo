@@ -107,4 +107,3 @@ D:\Practice\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csproj.CoreCompileI
 D:\Practice\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csproj.CopyComplete
 D:\Practice\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.dll
 D:\Practice\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.pdb
-D:\Practice\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csprojAssemblyReference.cache

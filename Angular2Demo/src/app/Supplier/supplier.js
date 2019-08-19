@@ -1,11 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var supplier = /** @class */ (function () {
-    function supplier(firstName, lastName, gender, age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gender = gender;
-        this.age = age;
+    function supplier() {
+        this.firstName = "";
+        this.lastName = "";
+        this.Gender = "";
+        this.Age = 0;
+        //constructor(public firstName: string, public lastName: string, public gender: string, public age: number) { }
     }
     return supplier;
 }());
